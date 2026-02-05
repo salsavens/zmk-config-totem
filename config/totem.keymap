@@ -81,12 +81,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        device {
-            if-layers = <2 2>;
-            then-layer = <2>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
