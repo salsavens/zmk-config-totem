@@ -49,10 +49,10 @@
 
         col {
             bindings = <
-              &kp Q  &kp W  &kp F       &kp P        &kp B      &kp J        &kp L            &kp U         &kp Y    &kp SQT
-              &kp A  &kp R  &kp S       &kp T        &kp G      &kp M        &kp N            &kp E         &kp I    &kp O
-&kp CAPSLOCK  &kp Z  &kp X  &kp C       &kp D        &kp V      &kp K        &kp H            &kp COMMA     &kp DOT  &kp FSLH  &kp N0
-                            &kp ESCAPE  &lt 2 SPACE  &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 5 DELETE
+              &kp Q             &kp W             &kp F                 &kp P                &kp B      &kp J        &kp L                &kp U                  &kp Y             &kp SQT
+              &hrmL LEFT_GUI A  &hrmL LEFT_ALT R  &hrmL LEFT_CONTROL S  &hrmL RIGHT_SHIFT T  &kp G      &kp M        &hrmR RIGHT_SHIFT N  &hrmR RIGHT_CONTROL E  &hrmR LEFT_ALT I  &hrmR RIGHT_GUI O
+&kp CAPSLOCK  &kp Z             &kp X             &kp C                 &kp D                &kp V      &kp K        &kp H                &kp COMMA              &kp DOT           &kp FSLH           &kp N0
+                                                  &kp ESCAPE            &lt 2 SPACE          &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE      &lt 5 DELETE
             >;
         };
 
