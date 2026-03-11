@@ -67,10 +67,10 @@
 
         nav {
             bindings = <
-       &none      &none     &none      &none      &none    &none    &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)
-       &kp LMETA  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &none    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT
-&none  &none      &none     &none      &none      &none    &none    &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp N2
-                            &none      &none      &none    &kp RET  &kp BSPC   &kp DEL
+       &none      &none     &none      &none      &none    &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+       &kp LMETA  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &none       &kp LEFT      &kp DOWN         &kp UP                &kp RIGHT
+&none  &none      &none     &none      &none      &none    &none       &kp HOME      &kp PG_DN        &kp PG_UP             &kp END               &kp N2
+                            &none      &none      &none    &kp RET     &kp BSPC      &kp DEL
             >;
         };
 
@@ -88,7 +88,7 @@
        &kp RS(LBKT)   &kp RS(N7)        &kp RS(N8)        &kp RS(N9)        &kp RS(RBKT)     &none  &none      &none      &none     &none
        &kp RS(SEMI)   &kp RS(N4)        &kp RS(N5)        &kp RS(N6)        &kp RS(EQUAL)    &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp LGUI
 &none  &kp RS(GRAVE)  &kp RS(NUMBER_1)  &kp RS(NUMBER_2)  &kp RS(NUMBER_3)  &kp RS(BSLH)     &none  &none      &none      &none     &none     &kp N4
-                                        &kp RS(DOT)       &kp RS(N0)        &kp RS(MINUS)    &none  &none      &none
+                                        &kp RS(N9)        &kp RS(N0)        &kp RS(MINUS)    &none  &none      &none
             >;
         };
 
