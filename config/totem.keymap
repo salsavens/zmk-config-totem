@@ -72,10 +72,10 @@
 
         qwer {
             bindings = <
-         &kp Q             &kp W             &kp E                 &hrmL LEFT_SHIFT R   &kp T        &kp Y              &kp U            &kp I          &kp O         &kp P
-         &hrmL LEFT_GUI A  &hrmL LEFT_ALT S  &hrmL LEFT_CONTROL D  &hrmL RIGHT_SHIFT F  &kp G        &kp H              &hrmR RSHFT J    &hrmR RCTRL K  &hrmR RALT L  &hrmR RMETA SEMICOLON
-&td_col  &kp Z             &kp X             &kp C                 &kp V                &kp GRAVE    &kp RIGHT_BRACKET  &kp M            &kp COMMA      &kp DOT       &kp FSLH               &kp SQT
-                                             &kp ESCAPE            &lt 2 SPACE          &kp TAB      &lt 4 ENTER        &lt 3 BACKSPACE  &lt 5 DELETE
+         &kp Q             &kp W             &kp E                 &hrmL LEFT_SHIFT R   &kp T      &kp Y        &kp U            &kp I          &kp O         &kp P
+         &hrmL LEFT_GUI A  &hrmL LEFT_ALT S  &hrmL LEFT_CONTROL D  &hrmL RIGHT_SHIFT F  &kp G      &kp H        &hrmR RSHFT J    &hrmR RCTRL K  &hrmR RALT L  &hrmR RMETA SEMICOLON
+&td_col  &kp Z             &kp X             &kp C                 &kp V                &kp B      &kp N        &kp M            &kp COMMA      &kp DOT       &kp FSLH               &kp SQT
+                                             &kp ESCAPE            &lt 2 SPACE          &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 5 DELETE
             >;
         };
 
