@@ -42,6 +42,20 @@
             flavor = "balanced";
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25 32 33 34>;
         };
+
+        td_qwer: td_qwer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_QWER";
+            #binding-cells = <0>;
+            bindings = <&kp CAPSLOCK>, <&to 1>;
+        };
+
+        td_col: td_col {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_COL";
+            #binding-cells = <0>;
+            bindings = <&kp CAPSLOCK>, <&to 0>;
+        };
     };
 
     keymap {
@@ -49,19 +63,19 @@
 
         col {
             bindings = <
-              &kp Q             &kp W             &kp F                 &hrmL LEFT_SHIFT P   &kp B      &kp J        &kp L                &kp U                  &kp Y             &kp SQT
-              &hrmL LEFT_GUI A  &hrmL LEFT_ALT R  &hrmL LEFT_CONTROL S  &hrmL RIGHT_SHIFT T  &kp G      &kp M        &hrmR RIGHT_SHIFT N  &hrmR RIGHT_CONTROL E  &hrmR LEFT_ALT I  &hrmR RIGHT_GUI O
-&kp CAPSLOCK  &kp Z             &kp X             &kp C                 &kp D                &kp V      &kp K        &kp H                &kp COMMA              &kp DOT           &kp FSLH           &kp N0
-                                                  &kp ESCAPE            &lt 2 SPACE          &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE      &lt 5 DELETE
+          &kp Q             &kp W             &kp F                 &hrmL LEFT_SHIFT P   &kp B      &kp J        &kp L                &kp U                  &kp Y             &kp SQT
+          &hrmL LEFT_GUI A  &hrmL LEFT_ALT R  &hrmL LEFT_CONTROL S  &hrmL RIGHT_SHIFT T  &kp G      &kp M        &hrmR RIGHT_SHIFT N  &hrmR RIGHT_CONTROL E  &hrmR LEFT_ALT I  &hrmR RIGHT_GUI O
+&td_qwer  &kp Z             &kp X             &kp C                 &kp D                &kp V      &kp K        &kp H                &kp COMMA              &kp DOT           &kp FSLH           &kp N0
+                                              &kp ESCAPE            &lt 2 SPACE          &kp TAB    &lt 4 ENTER  &lt 3 BACKSPACE      &lt 5 DELETE
             >;
         };
 
         qwer {
             bindings = <
-              &kp Q             &kp W             &kp E                 &hrmL LEFT_SHIFT R   &kp T        &kp Y              &kp U            &kp I          &kp O         &kp P
-              &hrmL LEFT_GUI A  &hrmL LEFT_ALT S  &hrmL LEFT_CONTROL D  &hrmL RIGHT_SHIFT F  &kp G        &kp H              &hrmR RSHFT J    &hrmR RCTRL K  &hrmR RALT L  &hrmR RMETA SEMICOLON
-&kp CAPSLOCK  &kp Z             &kp X             &kp C                 &kp V                &kp GRAVE    &kp RIGHT_BRACKET  &kp M            &kp COMMA      &kp DOT       &kp FSLH               &kp N1
-                                                  &kp ESCAPE            &lt 2 SPACE          &kp TAB      &lt 4 ENTER        &lt 3 BACKSPACE  &lt 5 DELETE
+         &kp Q             &kp W             &kp E                 &hrmL LEFT_SHIFT R   &kp T        &kp Y              &kp U            &kp I          &kp O         &kp P
+         &hrmL LEFT_GUI A  &hrmL LEFT_ALT S  &hrmL LEFT_CONTROL D  &hrmL RIGHT_SHIFT F  &kp G        &kp H              &hrmR RSHFT J    &hrmR RCTRL K  &hrmR RALT L  &hrmR RMETA SEMICOLON
+&td_col  &kp Z             &kp X             &kp C                 &kp V                &kp GRAVE    &kp RIGHT_BRACKET  &kp M            &kp COMMA      &kp DOT       &kp FSLH               &kp SQT
+                                             &kp ESCAPE            &lt 2 SPACE          &kp TAB      &lt 4 ENTER        &lt 3 BACKSPACE  &lt 5 DELETE
             >;
         };
 
